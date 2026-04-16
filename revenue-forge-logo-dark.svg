@@ -51,8 +51,7 @@
     </filter>
   </defs>
 
-  <!-- Background (transparent for versatility, but dark when standalone) -->
-  <rect width="600" height="200" fill="#0a0a0a" rx="12"/>
+  <!-- Background: transparent -->
 
   <!-- Heat glow behind forge icon -->
   <ellipse cx="85" cy="110" rx="60" ry="50" fill="url(#heatGlow)"/>
