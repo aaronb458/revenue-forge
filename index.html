@@ -665,15 +665,27 @@
               <input type="text" name="name" placeholder="First and last" required/>
             </div>
 
-            <!-- Q2: Business -->
+            <!-- Q2: Email -->
             <div class="form-group">
-              <label><span class="q-number">02</span> What's your business?</label>
+              <label><span class="q-number">02</span> What's your email?</label>
+              <input type="email" name="email" placeholder="you@company.com" required/>
+            </div>
+
+            <!-- Q3: Phone -->
+            <div class="form-group">
+              <label><span class="q-number">03</span> Best phone number?</label>
+              <input type="tel" name="phone" placeholder="(555) 000-0000" required/>
+            </div>
+
+            <!-- Q4: Business -->
+            <div class="form-group">
+              <label><span class="q-number">04</span> What's your business?</label>
               <input type="text" name="business" placeholder="Company name + what you do in a sentence" required/>
             </div>
 
-            <!-- Q3: What do you need? -->
+            <!-- Q5: What do you need? -->
             <div class="form-group">
-              <label><span class="q-number">03</span> What do you need help with?</label>
+              <label><span class="q-number">05</span> What do you need help with?</label>
               <select name="service" required>
                 <option value="" disabled selected>Pick the closest match</option>
                 <option value="crm-automation">CRM & Automation (GHL, pipelines, workflows)</option>
@@ -684,9 +696,9 @@
               </select>
             </div>
 
-            <!-- Q4: Budget range -->
+            <!-- Q6: Budget range -->
             <div class="form-group">
-              <label><span class="q-number">04</span> What's your budget range for this project?</label>
+              <label><span class="q-number">06</span> What's your budget range for this project?</label>
               <select name="budget" required>
                 <option value="" disabled selected>Be real with me</option>
                 <option value="under-2k">Under $2,000</option>
@@ -698,9 +710,9 @@
               <p class="form-hint">No wrong answer. Just helps me understand what we're working with.</p>
             </div>
 
-            <!-- Q5: Anything else -->
+            <!-- Q7: Anything else -->
             <div class="form-group">
-              <label><span class="q-number">05</span> Anything else I should know?</label>
+              <label><span class="q-number">07</span> Anything else I should know?</label>
               <textarea name="details" placeholder="Current situation, timeline, what's broken, what you've tried. Whatever you think matters."></textarea>
             </div>
 
